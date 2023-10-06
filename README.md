@@ -1,1 +1,1 @@
-# .github
+👋🏽 - we're getting started!
