@@ -12,6 +12,6 @@ Blueprints are customizable workflows that help developers build AI applications
 
 - [Document-to-podcast](https://github.com/mozilla-ai/document-to-podcast): A Blueprint that demonstrates how you can use open-source models & tools to convert input documents into a podcast featuring two speakers.
 
-- [Structured-Q-A](https://github.com/mozilla-ai/structured-q-a): A Blueprint that demonstrates how to use open-source models and a simple LLM workflow to answer questions based on structured documents.
+- [Structured-QA](https://github.com/mozilla-ai/structured-qa): A Blueprint that demonstrates how to use open-source models and a simple LLM workflow to answer questions based on structured documents.
 
-- [Speech-To-Text Finetune](https://github.com/mozilla-ai/speech-to-text-finetune): A Blueprints that 
+- [Speech-To-Text Finetune](https://github.com/mozilla-ai/speech-to-text-finetune): A Blueprints that enables you to create your own Speech-to-Text model tailored for your specific language & use-case. 
