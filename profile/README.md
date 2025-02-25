@@ -16,4 +16,4 @@ Blueprints are customizable workflows that help developers build AI applications
 
 - [Speech-To-Text Finetune](https://github.com/mozilla-ai/speech-to-text-finetune): Create your own Speech-to-Text model tailored for your specific language & use-case. 
 
-- [OpenStreetMap AI Helper](https://github.com/mozilla-ai/osm-ai-helper): Contribute to OpenStreetMap with the help of AI.
+- [OpenStreetMap AI Helper](https://github.com/mozilla-ai/osm-ai-helper): Map Features in OpenStreetMap with Computer Vision.
