@@ -16,7 +16,11 @@ jobs:
       - run: git clone https://${{ secrets.HF_USERNAME }}:${{ secrets.HF_TOKEN }}@huggingface.co/spaces/mozilla-ai/README hf-space
 
       - run: |
-          cp profile/README.md hf-space/README.md
+          touch UPDATED_README.md
+          cat HF_METADATA >> UPDATED_README.md
+          echo "" >> UPDATED_README.md 
+          cat profile/README.md >> UPDATED_README.md
+          mv UPDATED_README.md hf-space/README.md
 
       - run: |
           cd hf-space
