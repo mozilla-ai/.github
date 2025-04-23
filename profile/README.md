@@ -22,6 +22,10 @@ Blueprints are customizable workflows that help developers build AI applications
 
 - [Build Your Own Timeline Algorithm](https://github.com/mozilla-ai/byota): An approach to personal, local timeline algorithms that people can either run out-of-the-box or customize.
 
+- [Speech-To-Text](https://github.com/mozilla-ai/speech-to-text): Transcribe audio files using Speaches, developed in collaboration with [EleutherAI](https://www.eleuther.ai/).
+ 
+- [Document-to-Markdown](https://github.com/mozilla-ai/document-to-markdown): Transform PDFs, DOCX, HTML and more into clean Markdown format with Docling, developed in collaboration with [EleutherAI](https://www.eleuther.ai/).
+
 ### 🤖Agents
 
 - [any-agent](https://github.com/mozilla-ai/any-agent): A single interface to different Agent frameworks.
