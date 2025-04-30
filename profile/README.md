@@ -16,7 +16,7 @@ Blueprints are customizable workflows that help developers build AI applications
 
 - [Document-to-podcast](https://github.com/mozilla-ai/document-to-podcast): Convert input documents into a podcast featuring multiple speakers.
 
-- [Document-to-Markdown](https://github.com/mozilla-ai/document-to-markdown): Transform PDFs, DOCX, HTML and more into clean Markdown format with Docling, developed in collaboration with [EleutherAI](https://www.eleuther.ai/).
+- [Document-to-Markdown](https://github.com/mozilla-ai/document-to-markdown): Transform documents into markdown format with Docling, developed in collaboration with [EleutherAI](https://www.eleuther.ai/).
 
 - [Structured-QA](https://github.com/mozilla-ai/structured-qa): A simple LLM workflow to answer questions based on structured documents.
 
