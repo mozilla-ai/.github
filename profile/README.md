@@ -31,3 +31,6 @@ Blueprints are customizable workflows that help developers build AI applications
 - [Federated Finetuning](https://github.com/mozilla-ai/federated-finetuning): Finetune a language model with federated AI, developed in collaboration with [Flower](https://flower.ai/).
 
 - [Build Your Own Timeline Algorithm](https://github.com/mozilla-ai/byota): An approach to personal, local timeline algorithms that people can either run out-of-the-box or customize.
+
+- [Surf Spot Finder](https://github.com/mozilla-ai/surf-spot-finder): Blueprint for comparing agent frameworks on finding the best surf spot.
+
