@@ -22,6 +22,8 @@ Blueprints are customizable workflows that help developers build AI applications
 
 - [Speech-To-Text](https://github.com/mozilla-ai/speech-to-text): Transcribe audio files using Speaches, developed in collaboration with [EleutherAI](https://www.eleuther.ai/).
 
+- [Speech-To-Text Alignment](https://github.com/mozilla-ai/speech-to-text-alignment):  Align / Bias Speech-to-Text models to a predefined set of words or phrases. 
+
 - [Speech-To-Text Finetune](https://github.com/mozilla-ai/speech-to-text-finetune): Create your own Speech-to-Text model tailored for your specific language & use-case.
 
 - [Fake-Audio-Detection](https://github.com/mozilla-ai/fake-audio-detection): Train and deploy an ML model that detects synthetic audio, developed in collaboration with [UncovAI](https://uncovai.com/)
