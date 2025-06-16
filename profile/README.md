@@ -4,7 +4,7 @@
 
 ### 🤖Agents
 
-- [any-agent](https://github.com/mozilla-ai/any-agent): A single interface to different Agent frameworks.
+- [any-agent](https://github.com/mozilla-ai/any-agent): A single interface to use and evaluate different agent frameworks.
 
 ### 🐊 Lumigator
 
