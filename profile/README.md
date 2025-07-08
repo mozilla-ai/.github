@@ -6,20 +6,20 @@
 
 - [any-agent](https://github.com/mozilla-ai/any-agent): A single interface to use and evaluate different agent frameworks.
 
-### 🐊 Lumigator
-
-[Lumigator](https://github.com/mozilla-ai/lumigator) is an open-source platform developed to help users select the most suitable language model for their specific needs
-
 ### 📘 Blueprints
 
 Blueprints are customizable workflows that help developers build AI applications using open-source tools and models. See our collection of Blueprints below:
 
+- [WASM Agents](https://github.com/mozilla-ai/wasm-agents-blueprint): Blueprint demonstrating how to run AI agents directly in the browser using WebAssembly (WASM).
+
+- [Surf Spot Finder](https://github.com/mozilla-ai/surf-spot-finder): Blueprint for comparing agent frameworks on finding the best surf spot.
+  
 - [Document-to-podcast](https://github.com/mozilla-ai/document-to-podcast): Convert input documents into a podcast featuring multiple speakers.
 
 - [Document-to-Markdown](https://github.com/mozilla-ai/document-to-markdown): Transform documents into markdown format with Docling, developed in collaboration with [EleutherAI](https://www.eleuther.ai/).
-
+  
 - [Structured-QA](https://github.com/mozilla-ai/structured-qa): A simple LLM workflow to answer questions based on structured documents.
-
+  
 - [Speech-To-Text](https://github.com/mozilla-ai/speech-to-text): Transcribe audio files using Speaches, developed in collaboration with [EleutherAI](https://www.eleuther.ai/).
 
 - [Speech-To-Text Alignment](https://github.com/mozilla-ai/speech-to-text-alignment):  Align / Bias Speech-to-Text models to a predefined set of words or phrases. 
@@ -34,5 +34,6 @@ Blueprints are customizable workflows that help developers build AI applications
 
 - [Build Your Own Timeline Algorithm](https://github.com/mozilla-ai/byota): An approach to personal, local timeline algorithms that people can either run out-of-the-box or customize.
 
-- [Surf Spot Finder](https://github.com/mozilla-ai/surf-spot-finder): Blueprint for comparing agent frameworks on finding the best surf spot.
+### 🐊 Lumigator
 
+[Lumigator](https://github.com/mozilla-ai/lumigator) is an open-source platform developed to help users select the most suitable language model for their specific needs
