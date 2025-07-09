@@ -34,6 +34,10 @@ Blueprints are customizable workflows that help developers build AI applications
 
 - [Build Your Own Timeline Algorithm](https://github.com/mozilla-ai/byota): An approach to personal, local timeline algorithms that people can either run out-of-the-box or customize.
 
+Would you like to build your Blueprints? Use our template:
+
+- [Blueprint template](https://github.com/mozilla-ai/Blueprint-template)
+
 ### 🐊 Lumigator
 
 [Lumigator](https://github.com/mozilla-ai/lumigator) is an open-source platform developed to help users select the most suitable language model for their specific needs
