@@ -2,8 +2,6 @@
 
 ## What we're working on:
 
-### 🤖Agents
-
 - [any-agent](https://github.com/mozilla-ai/any-agent): A single interface to use and evaluate different agent frameworks.
 - [any-llm](https://github.com/mozilla-ai/any-llm): A single interface to use different llm providers.
 
