@@ -33,6 +33,9 @@ Blueprints are customizable workflows that help developers build AI applications
 
 - [Build Your Own Timeline Algorithm](https://github.com/mozilla-ai/byota): An approach to personal, local timeline algorithms that people can either run out-of-the-box or customize.
 
+Also, check out the Blueprints created by the community:
+- [LLM Document Parser](https://github.com/oronadavid/llm-document-parser): A locally runnable pipeline for parsing structured data from scanned or digital documents using open-source OCR and LLMs.
+
 Would you like to build your Blueprints? Use our template:
 
 - [Blueprint template](https://github.com/mozilla-ai/Blueprint-template)
