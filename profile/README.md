@@ -2,8 +2,10 @@
 
 ## What we're working on:
 
-- [any-agent](https://github.com/mozilla-ai/any-agent): A single interface to use and evaluate different agent frameworks.
+- [mcpd](https://github.com/mozilla-ai/mcpd): requirements.txt for agentic systems. Manage MCP servers and tools with one config.
 - [any-llm](https://github.com/mozilla-ai/any-llm): A single interface to use different llm providers.
+- [any-agent](https://github.com/mozilla-ai/any-agent): A single interface to use and evaluate different agent frameworks.
+
 
 ### 📘 Blueprints
 
