@@ -5,7 +5,7 @@
 - [mcpd](https://github.com/mozilla-ai/mcpd): requirements.txt for agentic systems. Manage MCP servers and tools with one config.
 - [any-llm](https://github.com/mozilla-ai/any-llm): A single interface to use different llm providers.
 - [any-agent](https://github.com/mozilla-ai/any-agent): A single interface to use and evaluate different agent frameworks.
-- [llamafile](https://github.com/mozilla-ai/any-agent): Distribute and run LLMs with a single file. 
+- [llamafile](https://github.com/mozilla-ai/llamafile): Distribute and run LLMs with a single file. 
 
 
 ### 📘 Blueprints
