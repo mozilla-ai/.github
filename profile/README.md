@@ -6,7 +6,7 @@
 - [any-llm](https://github.com/mozilla-ai/any-llm): A single interface to use different llm providers.
 - [any-agent](https://github.com/mozilla-ai/any-agent): A single interface to use and evaluate different agent frameworks.
 - [llamafile](https://github.com/mozilla-ai/llamafile): Distribute and run LLMs with a single file.
-- [encoderfile] (https://github.com/mozilla-ai/encoderfile): Encoderfile packages transformer encoders into a single, self-contained executable.
+- [encoderfile](https://github.com/mozilla-ai/encoderfile): Encoderfile packages transformer encoders into a single, self-contained executable.
 
 
 ### 📘 Blueprints
