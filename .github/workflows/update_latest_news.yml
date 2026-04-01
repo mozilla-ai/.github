@@ -1,0 +1,40 @@
+name: Update Latest News
+
+on:
+  repository_dispatch:
+    types:
+      - ghost_latest_news
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme-news:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Update latest news section
+        env:
+          GHOST_URL: ${{ secrets.GHOST_URL }}
+          GHOST_CONTENT_API_KEY: ${{ secrets.GHOST_CONTENT_API_KEY }}
+        run: python3 scripts/update_latest_news.py
+
+      - name: Commit and push if changed
+        run: |
+          if git diff --quiet -- profile/README.md; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add profile/README.md
+          git commit -m "Update latest news from Ghost"
+          git push

@@ -35,3 +35,8 @@ At [mozilla.ai](https://mozilla.ai), we believe the next generation of AI soluti
 - [clawbolt](https://github.com/mozilla-ai/clawbolt): Openclaw inspired AI Assistant specifically designed for the trades
 - [llamafile](https://github.com/mozilla-ai/llamafile): Distribute and run LLMs with a single file.
 - [encoderfile](https://github.com/mozilla-ai/encoderfile): Encoderfile packages transformer encoders into a single, self-contained executable.
+
+## Latest news
+<!-- latest-news:start -->
+- News updates are published from our Ghost blog.
+<!-- latest-news:end -->
