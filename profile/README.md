@@ -23,11 +23,11 @@ At [mozilla.ai](https://mozilla.ai), we believe the next generation of AI soluti
 - [encoderfile](https://github.com/mozilla-ai/encoderfile): Encoderfile packages transformer encoders into a single, self-contained executable.
 
 ## Social:
-| Platform | Link |
-| --- | --- |
-| [![LinkedIn](./social-icons/linkedin.svg)](https://www.linkedin.com/company/mozilla-ai/) | [linkedin.com/company/mozilla-ai](https://www.linkedin.com/company/mozilla-ai/) |
-| [![X](./social-icons/x.svg)](https://x.com/mozillaAI) | [x.com/mozillaAI](https://x.com/mozillaAI) |
-| [![Bluesky](./social-icons/bluesky.svg)](https://bsky.app/profile/mozilla.ai) | [bsky.app/profile/mozilla.ai](https://bsky.app/profile/mozilla.ai) |
-| [![Mastodon](./social-icons/mastodon.svg)](https://mastodon.social/@MozillaAI) | [mastodon.social/@MozillaAI](https://mastodon.social/@MozillaAI) |
-| [![Discord](./social-icons/discord.svg)](https://discord.gg/4gf3zXrQUc) | [discord.gg/4gf3zXrQUc](https://discord.gg/4gf3zXrQUc) |
-| [![GitHub](./social-icons/github.svg)](https://github.com/mozilla-ai) | [github.com/mozilla-ai](https://github.com/mozilla-ai) |
+<p>
+  <a href="https://www.linkedin.com/company/mozilla-ai/"><img src="./social-icons/linkedin.svg" alt="LinkedIn" width="18" /></a>
+  <a href="https://x.com/mozillaAI"><img src="./social-icons/x.svg" alt="X" width="18" /></a>
+  <a href="https://bsky.app/profile/mozilla.ai"><img src="./social-icons/bluesky.svg" alt="Bluesky" width="18" /></a>
+  <a href="https://mastodon.social/@MozillaAI"><img src="./social-icons/mastodon.svg" alt="Mastodon" width="18" /></a>
+  <a href="https://discord.gg/4gf3zXrQUc"><img src="./social-icons/discord.svg" alt="Discord" width="18" /></a>
+  <a href="https://github.com/mozilla-ai"><img src="./social-icons/github.svg" alt="GitHub" width="18" /></a>
+</p>
