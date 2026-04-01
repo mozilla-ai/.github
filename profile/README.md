@@ -18,8 +18,6 @@ At [mozilla.ai](https://mozilla.ai), we believe the next generation of AI soluti
   <a href="https://mastodon.social/@MozillaAI"><img src="./social-icons/mastodon.svg" alt="Mastodon" width="18" /></a>
   &nbsp;&nbsp;
   <a href="https://discord.gg/4gf3zXrQUc"><img src="./social-icons/discord.svg" alt="Discord" width="18" /></a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/mozilla-ai"><img src="./social-icons/github.svg" alt="GitHub" width="18" /></a>
 </p>
 
 ## Products and platforms:
