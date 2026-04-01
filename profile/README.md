@@ -38,5 +38,9 @@ At [mozilla.ai](https://mozilla.ai), we believe the next generation of AI soluti
 
 ## Latest news
 <!-- latest-news:start -->
-- News updates are published from our Ghost blog.
+- [The Hardest Part of Running a Small Business in the Trades](https://blog.mozilla.ai/the-hardest-part-of-running-a-small-business-in-the-trades/) (Mar 27, 2026)
+- [Hardening Your LLM Dependency Supply Chain](https://blog.mozilla.ai/hardening-your-llm-dependency-supply-chain/) (Mar 25, 2026)
+- [cq: Stack Overflow for Agents](https://blog.mozilla.ai/cq-stack-overflow-for-agents/) (Mar 23, 2026)
+- [llamafile Reloaded: What’s New in v0.10.0](https://blog.mozilla.ai/llamafile-reloaded-whats-new-in-v0-10-0/) (Mar 19, 2026)
+- [When Shipping Becomes Too Easy](https://blog.mozilla.ai/when-shipping-becomes-too-easy/) (Mar 17, 2026)
 <!-- latest-news:end -->
