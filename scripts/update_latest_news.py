@@ -11,6 +11,7 @@ from urllib.request import Request, urlopen
 README_PATH = "profile/README.md"
 START_MARKER = "<!-- latest-news:start -->"
 END_MARKER = "<!-- latest-news:end -->"
+GHOST_URL = "https://blog.mozilla.ai"
 
 
 def fail(message: str) -> None:
@@ -18,8 +19,8 @@ def fail(message: str) -> None:
     sys.exit(1)
 
 
-def fetch_posts(ghost_url: str, content_api_key: str) -> list[dict]:
-    base = ghost_url.rstrip("/")
+def fetch_posts(content_api_key: str) -> list[dict]:
+    base = GHOST_URL.rstrip("/")
     params = urlencode(
         {
             "key": content_api_key,
@@ -92,15 +93,12 @@ def replace_or_append_news(readme: str, section: str) -> str:
 
 
 def main() -> None:
-    ghost_url = os.environ.get("GHOST_URL", "").strip()
     content_api_key = os.environ.get("GHOST_CONTENT_API_KEY", "").strip()
 
-    if not ghost_url:
-        fail("Missing GHOST_URL environment variable")
     if not content_api_key:
         fail("Missing GHOST_CONTENT_API_KEY environment variable")
 
-    posts = fetch_posts(ghost_url, content_api_key)
+    posts = fetch_posts(content_api_key)
 
     with open(README_PATH, "r", encoding="utf-8") as f:
         current = f.read()
