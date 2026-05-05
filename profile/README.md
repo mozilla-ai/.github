@@ -21,8 +21,8 @@ At [mozilla.ai](https://mozilla.ai), we believe the next generation of AI soluti
 </p>
 
 ## Products and platforms:
-- [any-llm.ai](https://any-llm.ai): Simplified Management and Analytics for all your LLM Providers
-- [Octonous](https://octonous.com): Make AI Useful For Your Everyday Work
+- [Otari](https://otari.ai): A centralized control plane for LLM operations
+- [Octonous](https://octonous.com): Make AI useful for your everyday work
 
 ## What we're working on:
 - [any-guardrail](https://github.com/mozilla-ai/any-guardrail): any-guardrail is meant to provide the minimum amount of access necessary to implement the guardrails in your pipeline. 
