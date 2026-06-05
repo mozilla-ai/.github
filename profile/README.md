@@ -36,9 +36,9 @@ At [mozilla.ai](https://mozilla.ai), we believe the next generation of AI soluti
 
 ## Latest news
 <!-- latest-news:start -->
-- [Encoderfile’s New Format: Why a “Dull” Design Wins](https://blog.mozilla.ai/encoderfiles-new-format-why-a-dull-design-wins/) (Apr 07, 2026)
-- [The Hardest Part of Running a Small Business in the Trades](https://blog.mozilla.ai/the-hardest-part-of-running-a-small-business-in-the-trades/) (Mar 27, 2026)
-- [Hardening Your LLM Dependency Supply Chain](https://blog.mozilla.ai/hardening-your-llm-dependency-supply-chain/) (Mar 25, 2026)
-- [cq: Stack Overflow for Agents](https://blog.mozilla.ai/cq-stack-overflow-for-agents/) (Mar 23, 2026)
-- [llamafile Reloaded: What’s New in v0.10.0](https://blog.mozilla.ai/llamafile-reloaded-whats-new-in-v0-10-0/) (Mar 19, 2026)
+- [Otari: Own Your AI Stack](https://blog.mozilla.ai/otari-own-your-ai-stack/) (May 29, 2026)
+- [AI Got Expensive. Now What?](https://blog.mozilla.ai/ai-got-expensive-now-what/) (May 26, 2026)
+- [cq exchange: Agents without Borders](https://blog.mozilla.ai/cq-exchange-agents-without-borders/) (May 21, 2026)
+- [The Interface Is No Longer the Product](https://blog.mozilla.ai/the-interface-is-no-longer-the-product/) (May 19, 2026)
+- [First Line of Defense for cq (Stack Overflow for Agents)](https://blog.mozilla.ai/first-line-of-defense-for-cq/) (May 12, 2026)
 <!-- latest-news:end -->
