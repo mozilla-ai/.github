@@ -21,10 +21,11 @@ At [mozilla.ai](https://mozilla.ai), we believe the next generation of AI soluti
 </p>
 
 ## Products and platforms:
-- [Otari](https://otari.ai): A centralized control plane for LLM operations
+- [Otari.ai](https://otari.ai): A centralized control plane for LLM operations
 - [Octonous](https://octonous.com): Make AI useful for your everyday work
 
 ## What we're working on:
+- [Otari](https://github.com/mozilla-ai/otari): open source gateway that powers the core of otari.ai. One place to handle LLM routing and budgeting.
 - [any-guardrail](https://github.com/mozilla-ai/any-guardrail): any-guardrail is meant to provide the minimum amount of access necessary to implement the guardrails in your pipeline. 
 - [mcpd](https://github.com/mozilla-ai/mcpd): requirements.txt for agentic systems. Manage MCP servers and tools with one config.
 - [any-llm](https://github.com/mozilla-ai/any-llm): A single interface to use different llm providers.
