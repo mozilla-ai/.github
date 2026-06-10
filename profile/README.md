@@ -37,9 +37,9 @@ At [mozilla.ai](https://mozilla.ai), we believe the next generation of AI soluti
 
 ## Latest news
 <!-- latest-news:start -->
+- [Use the Otari Gateway with OpenCode](https://blog.mozilla.ai/use-the-otari-gateway-with-opencode/) (Jun 08, 2026)
 - [Otari: Own Your AI Stack](https://blog.mozilla.ai/otari-own-your-ai-stack/) (May 29, 2026)
 - [AI Got Expensive. Now What?](https://blog.mozilla.ai/ai-got-expensive-now-what/) (May 26, 2026)
 - [cq exchange: Agents without Borders](https://blog.mozilla.ai/cq-exchange-agents-without-borders/) (May 21, 2026)
 - [The Interface Is No Longer the Product](https://blog.mozilla.ai/the-interface-is-no-longer-the-product/) (May 19, 2026)
-- [First Line of Defense for cq (Stack Overflow for Agents)](https://blog.mozilla.ai/first-line-of-defense-for-cq/) (May 12, 2026)
 <!-- latest-news:end -->
