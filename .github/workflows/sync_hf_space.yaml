@@ -15,18 +15,27 @@ jobs:
 
       - run: git clone https://${{ secrets.HF_USERNAME }}:${{ secrets.HF_TOKEN }}@huggingface.co/spaces/mozilla-ai/README hf-space
 
-      - run: |
-          touch UPDATED_README.md
-          cat HF_METADATA.md >> UPDATED_README.md
-          echo "" >> UPDATED_README.md 
-          cat profile/README.md >> UPDATED_README.md
-          mv UPDATED_README.md hf-space/README.md
+      - name: Sync README and image assets
+        run: |
+          {
+            cat HF_METADATA.md
+            echo ""
+            cat profile/README.md
+          } > hf-space/README.md
+          cp profile/mozilla-ai-logo.svg hf-space/mozilla-ai-logo.svg
+          rm -rf hf-space/social-icons
+          cp -R profile/social-icons hf-space/social-icons
 
-      - run: |
+      - name: Commit changes
+        run: |
           cd hf-space
           git config user.name 'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
           git add .
+          if git diff --cached --quiet; then
+            echo "No changes to sync"
+            exit 0
+          fi
           git commit -m "Sync with https://github.com/mozilla-ai/.github"
 
       - name: Push to Hugging Face
