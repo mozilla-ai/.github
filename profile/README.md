@@ -37,9 +37,9 @@ At [mozilla.ai](https://mozilla.ai), we believe the next generation of AI soluti
 
 ## Latest news
 <!-- latest-news:start -->
-- [Use the Otari Gateway with OpenCode](https://blog.mozilla.ai/use-the-otari-gateway-with-opencode/) (Jun 08, 2026)
-- [Otari: Own Your AI Stack](https://blog.mozilla.ai/otari-own-your-ai-stack/) (May 29, 2026)
-- [AI Got Expensive. Now What?](https://blog.mozilla.ai/ai-got-expensive-now-what/) (May 26, 2026)
-- [cq exchange: Agents without Borders](https://blog.mozilla.ai/cq-exchange-agents-without-borders/) (May 21, 2026)
-- [The Interface Is No Longer the Product](https://blog.mozilla.ai/the-interface-is-no-longer-the-product/) (May 19, 2026)
+- [Using Octonous as an AI Safety Engineer](https://blog.mozilla.ai/using-octonous-as-an-ai-safety-engineer/) (Jul 09, 2026)
+- [The Control Layer: Why the Next Era of AI Is About Infrastructure, Not Just Models](https://blog.mozilla.ai/the-control-layer-why-the-next-era-of-ai-is-about-infrastructure-not-just-models/) (Jul 07, 2026)
+- [Introducing Otari: The Open-Source LLM Control Plane](https://blog.mozilla.ai/introducing-otari-the-open-source-llm-control-plane/) (Jul 06, 2026)
+- [Announcing transcribe.cpp](https://blog.mozilla.ai/announcing-transcribe-cpp/) (Jun 30, 2026)
+- [Using Octonous as a Product Manager](https://blog.mozilla.ai/using-octonous-as-a-product-manager/) (Jun 29, 2026)
 <!-- latest-news:end -->
