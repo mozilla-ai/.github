@@ -22,8 +22,12 @@ jobs:
             echo ""
             cat profile/README.md
           } > hf-space/README.md
+          test -f profile/mozilla-ai-logo.svg
+          test -d profile/social-icons
           cp profile/mozilla-ai-logo.svg hf-space/mozilla-ai-logo.svg
-          rm -rf hf-space/social-icons
+          if [ -e hf-space/social-icons ]; then
+            rm -rf hf-space/social-icons
+          fi
           cp -R profile/social-icons hf-space/social-icons
 
       - name: Commit changes
