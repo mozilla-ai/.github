@@ -15,21 +15,36 @@ jobs:
 
       - run: git clone https://${{ secrets.HF_USERNAME }}:${{ secrets.HF_TOKEN }}@huggingface.co/spaces/mozilla-ai/README hf-space
 
-      - run: |
-          touch UPDATED_README.md
-          cat HF_METADATA.md >> UPDATED_README.md
-          echo "" >> UPDATED_README.md 
-          cat profile/README.md >> UPDATED_README.md
-          mv UPDATED_README.md hf-space/README.md
+      - name: Sync README and image assets
+        run: |
+          {
+            cat HF_METADATA.md
+            echo ""
+            cat profile/README.md
+          } > hf-space/README.md
+          test -f profile/mozilla-ai-logo.svg || { echo "Error: profile/mozilla-ai-logo.svg not found"; exit 1; }
+          test -d profile/social-icons || { echo "Error: profile/social-icons not found"; exit 1; }
+          cp profile/mozilla-ai-logo.svg hf-space/mozilla-ai-logo.svg
+          rm -rf hf-space/social-icons
+          cp -R profile/social-icons hf-space/social-icons
 
-      - run: |
+      - name: Commit changes
+        id: commit
+        run: |
           cd hf-space
           git config user.name 'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
           git add .
-          git commit -m "Sync with https://github.com/mozilla-ai/.github"
+          if git diff --cached --quiet; then
+            echo "No changes to sync"
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "Sync with https://github.com/mozilla-ai/.github"
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Push to Hugging Face
+        if: steps.commit.outputs.changed == 'true'
         run: |
           cd hf-space
           git push https://${{ secrets.HF_USERNAME }}:${{ secrets.HF_TOKEN }}@huggingface.co/spaces/mozilla-ai/README main
