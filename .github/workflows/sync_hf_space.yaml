@@ -25,12 +25,11 @@ jobs:
           test -f profile/mozilla-ai-logo.svg
           test -d profile/social-icons
           cp profile/mozilla-ai-logo.svg hf-space/mozilla-ai-logo.svg
-          if [ -e hf-space/social-icons ]; then
-            rm -rf hf-space/social-icons
-          fi
+          rm -rf hf-space/social-icons
           cp -R profile/social-icons hf-space/social-icons
 
       - name: Commit changes
+        id: commit
         run: |
           cd hf-space
           git config user.name 'github-actions[bot]'
@@ -38,11 +37,14 @@ jobs:
           git add .
           if git diff --cached --quiet; then
             echo "No changes to sync"
+            echo "changed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
           git commit -m "Sync with https://github.com/mozilla-ai/.github"
+          echo "changed=true" >> "$GITHUB_OUTPUT"
 
       - name: Push to Hugging Face
+        if: steps.commit.outputs.changed == 'true'
         run: |
           cd hf-space
           git push https://${{ secrets.HF_USERNAME }}:${{ secrets.HF_TOKEN }}@huggingface.co/spaces/mozilla-ai/README main
