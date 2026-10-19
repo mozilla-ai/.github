@@ -37,9 +37,9 @@ At [mozilla.ai](https://mozilla.ai), we believe the next generation of AI soluti
 
 ## Latest news
 <!-- latest-news:start -->
-- [Using Octonous as an AI Safety Engineer](https://blog.mozilla.ai/using-octonous-as-an-ai-safety-engineer/) (Jul 09, 2026)
-- [The Control Layer: Why the Next Era of AI Is About Infrastructure, Not Just Models](https://blog.mozilla.ai/the-control-layer-why-the-next-era-of-ai-is-about-infrastructure-not-just-models/) (Jul 07, 2026)
-- [Introducing Otari: The Open-Source LLM Control Plane](https://blog.mozilla.ai/introducing-otari-the-open-source-llm-control-plane/) (Jul 06, 2026)
-- [Announcing transcribe.cpp](https://blog.mozilla.ai/announcing-transcribe-cpp/) (Jun 30, 2026)
-- [Using Octonous as a Product Manager](https://blog.mozilla.ai/using-octonous-as-a-product-manager/) (Jun 29, 2026)
+- [Who searches the web for your agent?](https://blog.mozilla.ai/who-searches-the-web-for-your-agent/) (Oct 19, 2026)
+- [Building the Missing Half](https://blog.mozilla.ai/building-the-missing-half/) (Oct 13, 2026)
+- [Mistral Large 4 is live in Otari](https://blog.mozilla.ai/mistral-large-4-is-live-in-otari/) (Oct 08, 2026)
+- [You Don’t Just Need Better AI. You Need Better Infrastructure.](https://blog.mozilla.ai/you-dont-just-need-better-ai-you-need-better-infrastructure/) (Oct 05, 2026)
+- [Benchmarking Local LLM Servers: llama.cpp, llamafile, LM Studio, and Ollama](https://blog.mozilla.ai/benchmarking-local-llm-servers-llama-cpp-llamafile-lm-studio-and-ollama/) (Sep 17, 2026)
 <!-- latest-news:end -->
